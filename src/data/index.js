@@ -1,5 +1,5 @@
 import userExperience from "./userExperience";
 import productThinking from "./productThinking";
-import Research from "./Research";
+import research from "./research";
 
-export default { ...productThinking, ...userExperience, ...Research };
+export default { ...productThinking, ...userExperience, ...research };

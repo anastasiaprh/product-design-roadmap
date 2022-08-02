@@ -41,7 +41,6 @@ const MultiBox = (props) => {
         rx="16"
         ry="16"
       />
-      {children}
     </React.Fragment>
   );
 };
