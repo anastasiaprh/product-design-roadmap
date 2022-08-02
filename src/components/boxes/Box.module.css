@@ -1,0 +1,61 @@
+* {
+  --white: #ffffff;
+  --blue0: #e7f5ff;
+  --blue1: #d0ebff;
+  --violet0: #f3f0ff;
+  --violet1: #e5dbff;
+  --cyan0: #e3fafc;
+  --cyan1: #c5f6fa;
+  --lime0: #f4fce3;
+  --lime1: #e9fac8;
+  --orange0: #fff4e6;
+  --orange1: #ffe8cc;
+}
+
+.clickable {
+  cursor: pointer;
+}
+/* 
+.clickable .shadow {
+  filter: drop-shadow(0px 1px 3px rgba(73, 80, 87, 0.15));
+} */
+
+.blue0:hover {
+  fill: var(--blue0);
+}
+
+.blue1:hover {
+  fill: var(--blue1);
+}
+
+.violet0:hover {
+  fill: var(--violet0);
+}
+
+.violet1:hover {
+  fill: var(--violet1);
+}
+
+.cyan0:hover {
+  fill: var(--cyan0);
+}
+
+.cyan1:hover {
+  fill: var(--cyan1);
+}
+
+.lime0:hover {
+  fill: var(--lime0);
+}
+
+.lime1:hover {
+  fill: var(--lime1);
+}
+
+.orange0:hover {
+  fill: var(--orange0);
+}
+
+.orange1:hover {
+  fill: var(--orange1);
+}

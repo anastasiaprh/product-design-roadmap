@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import classes from "./App.module.css";
+import MainContainer from "./layout/MainContainer";
+import { useState, useEffect, useContext } from "react";
+import Header from "./layout/Header";
+import Modal from "./modal/Modal";
+import CartContext from "./modal/modalContext";
+import data from "./data";
+import Loader from "./layout/Loader";
 
 function App() {
+  const { currentTopicTitle } = useContext(CartContext);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // useEffect(() => {
+  //   setIsLoading(false);
+  //   // setTimeout(() => {
+  //   //   setIsLoading(false);
+  //   // }, "1000");
+  // }, []);
+
+  const topicData = data[currentTopicTitle];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Modal topicData={topicData} />
+      <main className={classes.App}>
+        <Header></Header>
+        {/* {isLoading && <Loader />} */}
+        <MainContainer></MainContainer>
+      </main>
     </div>
   );
 }

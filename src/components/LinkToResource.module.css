@@ -1,0 +1,32 @@
+* {
+  --gray7: #495057;
+  --gray8: #343a40;
+  --gray9: #212529;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.link-title {
+  color: var(--gray7);
+  font-size: 0.95em;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+a:hover .link-title {
+  transition: all 100ms ease-in-out;
+  color: var(--gray9);
+  box-shadow: 0 1px 0 var(--gray8);
+}
+
+a {
+  text-decoration: none;
+  word-wrap: break-word;
+  /* box-shadow: 0 1px 0 var(--gray9); */
+}

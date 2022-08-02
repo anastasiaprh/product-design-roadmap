@@ -1,0 +1,35 @@
+* {
+  --gray0: #f8f9fa;
+  --gray1: #f1f3f5;
+  --gray3: #d0d5dd;
+  --text-gray7: #495057;
+  --text-gray8: #343a40;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2em;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+ul li {
+  margin: 1em 0;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--gray3);
+  border: 0;
+}
+
+.resources {
+  margin-top: 2em;
+}
+
+.resources h3 {
+  font-weight: 500;
+  color: var(--text-gray8);
+  margin-top: 2em;
+}
