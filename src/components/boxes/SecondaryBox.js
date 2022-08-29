@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./SecondaryBox.module.css";
 import Box from "./Box";
 
 const SecondaryBox = (props) => {
@@ -17,7 +16,7 @@ const SecondaryBox = (props) => {
       isClickable={true}
       fontSize="0.875em"
       fontWeight={500}
-      letterSpacing="0"
+      letterSpacing="-0.25"
       hoverColor={hoverColor}
     ></Box>
   );

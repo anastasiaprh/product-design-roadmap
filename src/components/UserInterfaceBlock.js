@@ -7,7 +7,12 @@ const UserInterfaceBlock = (props) => {
     <React.Fragment>
       {boxes.map((box) => {
         return (
-          <BoxSwitch absoluteX={absoluteX} absoluteY={absoluteY} box={box} />
+          <BoxSwitch
+            key={box.text + box.y + absoluteY}
+            absoluteX={absoluteX}
+            absoluteY={absoluteY}
+            box={box}
+          />
         );
       })}
     </React.Fragment>

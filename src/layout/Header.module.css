@@ -1,14 +1,14 @@
 .header {
   position: relative;
   width: 100%;
-  height: 5rem;
-  background: #74c0fc;
+  height: 70px;
+  background: #ffffff;
   color: #343a40;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  box-shadow: 0px 2px 16px rgba(25, 113, 194, 0.15);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
   z-index: 10;
 }
 
@@ -24,16 +24,73 @@
   z-index: 2;
 }
 
-.header-background {
-  position: relative;
-  z-index: 2;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-  backdrop-filter: blur(70px);
-  background-color: rgba(243, 243, 243, 0.72);
+.GitHubRibbon {
+  fill: #212529;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  border: 0px;
+  left: 0px;
+  z-index: 2;
+  transform: scaleX(-1);
+}
+
+.social-icons {
+  position: absolute;
+  right: 2em;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-icons a {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.social-icons span {
+  font-family: "Fredoka", Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  color: #495057;
+  font-weight: 500;
+}
+
+.twitter-ic:hover svg path {
+  fill: #1da1f2;
+}
+
+.fb-ic:hover svg path {
+  fill: #4267b2;
+}
+
+.linkedin-ic:hover svg path {
+  fill: #0077b5;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  .social-icons {
+    display: none;
+  }
+
+  .GitHubRibbon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header {
+    height: 50px;
+  }
+
+  .logo {
+    width: 179px;
+  }
 }

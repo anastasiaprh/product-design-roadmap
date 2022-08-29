@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  padding: 2em;
+  background-color: #f3faff;
+  box-shadow: 0px -1px 0px #e9ecef;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 0.25em;
+}
+
+.footer span {
+  color: #212529;
+  font-size: 0.875em;
+}
+
+.heart-ic {
+  display: flex;
+  align-items: center;
+}
+
+span a {
+  color: #1c7ed6;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 1em;
+  }
+
+  .footer span {
+    font-size: 0.75em;
+  }
+}

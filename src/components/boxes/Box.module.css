@@ -15,10 +15,6 @@
 .clickable {
   cursor: pointer;
 }
-/* 
-.clickable .shadow {
-  filter: drop-shadow(0px 1px 3px rgba(73, 80, 87, 0.15));
-} */
 
 .blue0:hover {
   fill: var(--blue0);

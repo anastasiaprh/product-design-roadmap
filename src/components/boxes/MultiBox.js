@@ -1,6 +1,4 @@
 import React from "react";
-import classes from "./MultiBox.module.css";
-
 import Box from "./Box";
 
 const MultiBox = (props) => {
@@ -13,6 +11,18 @@ const MultiBox = (props) => {
           <rect x={x} y={y} width={width} height="61" rx="16" ry="16" />
         </clipPath>
       </defs>
+      <rect
+        x={x}
+        y={y}
+        width={width}
+        height={height}
+        fill="rgb(255,255,255)"
+        fillOpacity="1"
+        strokeWidth="2"
+        stroke="#DEE2E6"
+        rx="16"
+        ry="16"
+      />
       <Box
         x={x}
         y={y}
@@ -29,18 +39,6 @@ const MultiBox = (props) => {
         letterSpacing="0"
         clipPathId={clipPathId}
       ></Box>
-      <rect
-        x={x}
-        y={y}
-        width={width}
-        height={height}
-        fill="rgb(255,255,255)"
-        fillOpacity="0"
-        strokeWidth="2"
-        stroke="#DEE2E6"
-        rx="16"
-        ry="16"
-      />
     </React.Fragment>
   );
 };

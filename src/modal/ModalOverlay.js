@@ -15,8 +15,7 @@ const ModalOverlay = (props) => {
     <React.Fragment>
       <CSSTransition
         in={isModalOpen}
-        timeout={{ enter: 300, exit: 150 }}
-        // timeout={300}
+        timeout={{ enter: 300, exit: 0 }}
         classNames={{
           enter: classes["backdrop-enter"],
           enterActive: classes["backdrop-enter-active"],
@@ -29,8 +28,7 @@ const ModalOverlay = (props) => {
       </CSSTransition>
       <CSSTransition
         in={isModalOpen}
-        timeout={{ enter: 300, exit: 150 }}
-        // timeout={300}
+        timeout={{ enter: 300, exit: 0 }}
         classNames={{
           enter: classes["modal-enter"],
           enterActive: classes["modal-enter-active"],

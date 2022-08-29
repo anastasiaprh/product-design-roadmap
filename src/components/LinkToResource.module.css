@@ -5,8 +5,7 @@
 }
 
 .link {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   align-items: center;
   gap: 1em;
 }
@@ -28,5 +27,4 @@ a:hover .link-title {
 a {
   text-decoration: none;
   word-wrap: break-word;
-  /* box-shadow: 0 1px 0 var(--gray9); */
 }

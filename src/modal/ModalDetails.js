@@ -7,35 +7,38 @@ const ModalDetails = (props) => {
   const { hideModal } = useContext(ModalContext);
   const { title, description, links } = props.topicData;
   return (
-    <div classes={classes["modal__content"]}>
-      <header className={classes["modal__header"]}>{title}</header>
-      <button
-        onClick={hideModal}
-        type="button"
-        aria-label="Close"
-        className={classes["modal__close-ic"]}
-      >
-        <svg
-          width="32"
-          height="32"
-          viewBox="0 0 32 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+    <div className={classes["modal__content"]}>
+      <div className={classes["modal__header"]}>
+        <h2 className={classes["modal__title"]}>{title}</h2>
+        <button
+          onClick={hideModal}
+          type="button"
+          aria-label="Close"
+          className={classes["modal__close-ic"]}
         >
-          <path
-            d="M23 23L9 9"
-            stroke="#868E96"
-            strokeWidth="2"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M23 9L9 23"
-            stroke="#868E96"
-            strokeWidth="2"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </button>
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23 23L9 9"
+              stroke="#868E96"
+              strokeWidth="2"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M23 9L9 23"
+              stroke="#868E96"
+              strokeWidth="2"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
       <div className={classes["modal__body"]}>
         <p className={classes["topic-description"]}>{description}</p>
         <ListOfLinks links={links} />

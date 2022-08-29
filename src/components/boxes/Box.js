@@ -1,6 +1,6 @@
 import classes from "./Box.module.css";
 import ModalContext from "../../modal/modalContext";
-import { useContext } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 
 const colorPicker = {
   white: "#FFFFFF",
@@ -58,10 +58,17 @@ const Box = (props) => {
     clipPathId,
   } = props;
 
+  const [textY, setTextY] = useState(y);
+  const textEl = useRef();
+
+  useEffect(() => {
+    const textHeight = textEl.current.getBBox().height;
+    setTextY(y + height / 2 + textHeight / 4);
+  }, []);
+
   const { showModal } = useContext(ModalContext);
 
   const textX = x + width / 2;
-  const textY = y + height / 2 + 1;
 
   const onClickHandler = () => {
     showModal(text);
@@ -74,13 +81,9 @@ const Box = (props) => {
 
   return (
     <g
-      className={
-        isClickable
-          ? `${classes.clickable} ${classes.shadow} ${hoverColorClass}`
-          : ""
-      }
+      className={isClickable ? `${classes.clickable} ${hoverColorClass}` : ""}
       fill={boxFillColor}
-      onClick={onClickHandler}
+      onClick={isClickable ? onClickHandler : null}
     >
       <rect
         width={width}
@@ -93,7 +96,7 @@ const Box = (props) => {
         y={y}
         clipPath={isClickable ? "" : `url(#clipPath-${clipPathId})`}
       ></rect>
-      <text x={textX} y={textY} dominantBaseline="middle" textAnchor="middle">
+      <text ref={textEl} x={textX} y={textY} textAnchor="middle">
         <tspan
           fill="rgba(52, 58, 64, 1)"
           fontSize={fontSize}

@@ -1,5 +1,3 @@
-/* Import google font here */
-
 * {
   box-sizing: border-box;
   word-wrap: break-word;
@@ -18,9 +16,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-image: url("/public/design-pattern-1.svg");
   background-repeat: repeat;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: 300px;
+  }
+}
+
+.no-scroll {
+  overflow: hidden !important;
 }
 
 code {

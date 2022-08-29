@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./PrimaryBox.module.css";
 import Box from "./Box";
 
 const PrimaryBox = (props) => {

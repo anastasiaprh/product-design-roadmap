@@ -1,13 +1,23 @@
 .modal {
   position: fixed;
-  height: 40rem;
-  top: 8vh;
+  height: 90%;
+  top: 5%;
   left: 5%;
   width: 90%;
   background-color: white;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
+}
+
+@media (max-width: 767px) {
+  .modal {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -24,6 +34,7 @@
 }
 .modal-enter-active {
   opacity: 1;
+  -webkit-animation: slide-down 300ms ease-out forwards;
   animation: slide-down 300ms ease-out forwards;
 }
 .modal-exit {
@@ -31,16 +42,40 @@
 }
 .modal-exit-active {
   opacity: 0;
-  transition: opacity 150ms;
+  -webkit-transition: opacity 0;
+  transition: opacity 0;
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slide-up {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+  }
 }
 
 @keyframes slide-down {
   from {
     opacity: 0;
+    -webkit-transform: translateY(-3rem);
     transform: translateY(-3rem);
   }
   to {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -51,6 +86,7 @@
   }
   to {
     opacity: 0;
+    -webkit-transform: translateY(3rem);
     transform: translateY(3rem);
   }
 }
@@ -60,6 +96,7 @@
 }
 .backdrop-enter-active {
   opacity: 1;
+  -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
 }
 .backdrop-exit {
@@ -67,5 +104,10 @@
 }
 .backdrop-exit-active {
   opacity: 0;
-  transition: opacity 150ms;
+  -webkit-transition: opacity 0;
+  transition: opacity 0;
+}
+
+.content {
+  height: 100%;
 }
