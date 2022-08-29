@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   body {
     background-size: 300px;
   }

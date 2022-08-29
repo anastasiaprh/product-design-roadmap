@@ -10,7 +10,7 @@
   z-index: 30;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .modal {
     width: 100%;
     height: 100vh;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .modal {
     width: 50rem;
     left: calc(50% - 25rem);

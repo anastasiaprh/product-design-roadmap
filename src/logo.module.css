@@ -4,7 +4,7 @@
   margin-top: 5px;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .logo {
     width: 179px;
   }

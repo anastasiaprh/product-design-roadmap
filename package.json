@@ -1,6 +1,6 @@
 {
   "name": "product-design-roadmap",
-  "homepage": "https://anastasiaprh.github.io/product-design-roadmap",
+  "homepage": "https://product-design-roadmap.com",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
