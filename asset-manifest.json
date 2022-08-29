@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/product-design-roadmap/static/css/main.fc5ea5fa.css",
+    "main.js": "/product-design-roadmap/static/js/main.62902115.js",
+    "static/media/design-pattern-1.svg": "/product-design-roadmap/static/media/design-pattern-1.50b9395331706aa4b4ba.svg",
+    "index.html": "/product-design-roadmap/index.html",
+    "main.fc5ea5fa.css.map": "/product-design-roadmap/static/css/main.fc5ea5fa.css.map",
+    "main.62902115.js.map": "/product-design-roadmap/static/js/main.62902115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5ea5fa.css",
+    "static/js/main.62902115.js"
+  ]
+}
