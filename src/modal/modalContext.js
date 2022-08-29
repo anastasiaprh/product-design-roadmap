@@ -22,13 +22,13 @@ export const ModalContextProvider = (props) => {
       parseInt(document.documentElement.clientWidth);
 
     document.documentElement.style.marginRight = `${scrollBarMarginRight}px`;
-    document.documentElement.style.overflow = "hidden";
+    body.style.overflow = "hidden";
   };
 
   const hideModal = () => {
     setIsModalOpen(false);
 
-    document.documentElement.style.overflow = "auto";
+    body.style.overflow = "auto";
     document.documentElement.style.marginRight = "0px";
   };
 
