@@ -16,7 +16,7 @@ export default {
       },
       {
         iconType: "article",
-        title: "8 best practices for UI card design",
+        title: "8 Best Practices For UI Card Design",
         href: "https://medium.com/user-experience-design-1/8-best-practices-for-ui-card-design-898f45bb60cc",
       },
       {
