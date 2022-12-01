@@ -15,6 +15,11 @@ export default {
         href: "https://www.smashingmagazine.com/2018/02/comprehensive-guide-ui-design/",
       },
       {
+        iconType: "article",
+        title: "8 best practices for UI card design",
+        href: "https://medium.com/user-experience-design-1/8-best-practices-for-ui-card-design-898f45bb60cc",
+      },
+      {
         iconType: "video",
         title: "UX Design vs UI Design - What's The Difference?",
         href: "https://www.youtube.com/watch?v=5CxXhyhT6Fc",
@@ -93,6 +98,12 @@ export default {
         iconType: "article",
         title: "Creating a design system in Figma: a practical guide",
         href: "https://uxdesign.cc/creating-a-design-system-in-figma-cbd01b0d2424",
+      },
+      {
+        iconType: "article",
+        title:
+          "The Benefits of a Design System: Making Better Products, Faster",
+        href: "https://www.toptal.com/designers/design-systems/benefits-of-design-system",
       },
       {
         iconType: "article",
