@@ -2,7 +2,7 @@ export default {
   "Product Thinking": {
     title: "Product Thinking",
     description:
-      "Product thinking is the mindset that focuses on driving business value through solving customer problems. Effective product thinking begins by identifying the user's problem. Then, the strategy is established and objectives are outlined by the product team.",
+      "Product thinking is a mindset and approach to problem-solving that is focused on creating valuable and meaningful products and experiences for users. It involves understanding the needs and motivations of users, identifying opportunities to create value, and continually iterating and refining the product to meet the evolving needs and expectations of the target audience. Product thinking involves a holistic and user-centered approach to product development, considering not just the technical and functional aspects of the product, but also the emotional and psychological impact it has on users.",
     links: [
       {
         iconType: "article",
@@ -39,7 +39,7 @@ export default {
   "Product Vision": {
     title: "Product Vision",
     description:
-      "Product vision describes where the company will be in the future. It is the essential tool for the product teams that allow them to figure out the product strategy and objectives.",
+      "Product vision is a statement that describes the long-term goals and desired outcomes for a product. It serves as a guiding light for the product team and helps them stay focused on the bigger picture as they work towards building and evolving the product. The product vision should be aspirational and inspire the team to think creatively and strategically about how they can bring the vision to life. It should also be clear and concise, and provide a clear direction for the product team to follow as they make decisions and prioritize their work.",
     links: [
       {
         iconType: "article",
@@ -62,7 +62,7 @@ export default {
   "Product Strategy": {
     title: "Product Strategy",
     description:
-      "Product strategy describes how the product goals will be accomplished, and which of the user's problems the product team should focus on.",
+      "Product strategy involves the planning and execution of the development and management of a product or service. It includes identifying the target market, defining the features and benefits of the product, and determining the pricing, distribution, and promotion strategies that will be used to bring the product to market. Effective product strategy requires a deep understanding of the target market, the competition, and the industry landscape, as well as the ability to adapt and adjust the product as needed in response to changing market conditions and customer needs.",
     links: [
       {
         iconType: "article",
@@ -94,7 +94,7 @@ export default {
   "Value Proposition": {
     title: "Value Proposition",
     description:
-      "Value proposition is a short statement that communicates why customers should choose a product or service. This statement should describe what the product does, for whom it was created, and what values it will bring to the user's life.",
+      "Value proposition is a statement that clearly communicates the benefits and value that a company's product or service offers to its customers. It explains how the product or service solves a problem or fulfills a need, and why it is better than other options on the market. A strong value proposition helps a company stand out from its competitors and attract potential customers by highlighting the unique value it offers.",
     links: [
       {
         iconType: "video",
@@ -117,7 +117,7 @@ export default {
   "Product-Market Fit": {
     title: "Product-Market Fit",
     description:
-      "Product-market fit is when your product addresses and solves the needs of your customers in correlating market segments and channels.",
+      "Product-market fit refers to the degree to which a product meets the needs of a particular market. It is a measure of how well a product satisfies the demand of a target market and how well it meets the needs of its customers. A product that has a strong product-market fit is well-suited to the needs and preferences of its target market and is able to compete effectively in its market. On the other hand, a product that lacks product-market fit may struggle to gain traction and may ultimately fail in the market. Ensuring that a product has a strong product-market fit is an important step in the process of bringing a product to market and is crucial for the success of any business.",
     links: [
       {
         iconType: "video",
@@ -139,7 +139,7 @@ export default {
   "Product Roadmap": {
     title: "Product Roadmap",
     description:
-      "Product roadmap is a shared source of truth that outlines the vision, direction, priorities, and progress of a product over time. It's a plan of action that aligns the organization around short and long-term goals for the product or project, and how they will be achieved.",
+      "Product roadmap is a high-level visual summary that maps out the vision and direction of a product. It outlines the key features and capabilities that the product team plans to deliver over a specified period of time. A product roadmap serves as a communication tool to align stakeholders on the progress and direction of the product, and to help prioritize the development of new features and enhancements. It can also be used to identify dependencies, track progress, and adjust course as needed to ensure that the product meets the needs of its target market.",
     links: [
       {
         iconType: "article",
@@ -156,7 +156,7 @@ export default {
   "Product Pitch": {
     title: "Product Pitch",
     description:
-      "Product pitch is a presentation of a product or service, that emphasizes how the product works and how it will solve the user's pain points, and what are the specific benefits it will bring to customers.",
+      "Product pitch is a presentation or pitch that aims to sell a product or service to a potential customer or investor. It typically includes a brief overview of the product or service, its key features and benefits, and how it meets the needs of the target audience. A product pitch may also include demonstrations, samples, or other materials to help illustrate the product or service in action. The goal of a product pitch is to persuade the listener to try the product or service, invest in it, or otherwise engage with it in some way.",
     links: [
       {
         iconType: "video",
@@ -188,7 +188,7 @@ export default {
   "Product Launch": {
     title: "Product Launch",
     description:
-      "Product launch is a planned effort to bring a new product to market.",
+      "Product launch is the process of introducing a new product or service to the market. It typically involves a series of marketing and communication activities designed to generate interest and demand for the product among potential customers. A product launch may involve a range of activities such as product demonstrations, press releases, advertising, social media campaigns, and promotional events. The success of a product launch can have a significant impact on the overall success of the product and the company.",
     links: [
       {
         iconType: "video",
@@ -216,7 +216,7 @@ export default {
   MVP: {
     title: "MVP",
     description:
-      "Minimum viable product (MVP) is a version of a product with enough useful features to serve users' needs and address their pain points.",
+      "MVP stands for Minimum Viable Product. It is a product development strategy that involves creating a product with just enough features to allow users to experience its core functionality, while also gathering valuable feedback from early adopters. The goal of an MVP is to quickly test and validate a product idea, gather insights from real users, and iterate based on that feedback, with the ultimate goal of creating a fully-fledged product that meets the needs of its target market. This approach is often used in the technology industry, as it allows companies to bring new products to market faster, while also minimizing the risk of investing too much time and resources in a product that may not be successful.",
     links: [
       {
         iconType: "video",
@@ -239,7 +239,7 @@ export default {
   "Press Release": {
     title: "Press Release",
     description:
-      "Press release is the official statement (written or recorded) that organization issues to the news media and beyond. Besides that, product teams can use it as a reference during the development process.",
+      "Press release is a written or recorded communication that is issued to the media for the purpose of announcing something newsworthy. In the context of a digital product, a press release might be used to announce the launch of a new app, software update, or online service. It typically includes information about the product, its features and benefits, and any relevant background information. The press release is designed to generate buzz and interest in the product, and may be distributed to journalists, bloggers, and other influencers in the tech industry in an effort to gain coverage and drive traffic to the product's website or landing page.",
     links: [
       {
         iconType: "article",
@@ -262,7 +262,7 @@ export default {
   "Product Usage Analytics": {
     title: "Product Usage Analytics",
     description:
-      "Product analytics is the process of analyzing how users interact with a product or service. Companies use product analytics to track, research, and visualize the user's experience. This helps product teams to optimize designs based on user data.",
+      "Product usage analytics is the process of collecting, analyzing, and reporting on data related to how a product is being used by its customers. This can include data on how frequently the product is used, which features are being utilized, and how long users spend using the product. This information can be used by product managers and developers to improve the product, identify areas for growth, and better understand the needs of their customers. Product usage analytics can be tracked in a variety of ways, including through the use of software tools, user surveys, and other data-gathering methods.",
     links: [
       {
         iconType: "video",
@@ -289,7 +289,7 @@ export default {
   "Customer Retention": {
     title: "Customer Retention",
     description:
-      "Customer retention is the metric that refers to the ability of a product to remain usable, valuable, and feasible for your customers over a period of time.",
+      "Customer retention refers to the practice of keeping customers coming back to your business over time. It is a key measure of a company's success, as it is typically less expensive to retain an existing customer than it is to acquire a new one. There are many strategies that businesses can use to improve customer retention, including offering high-quality products or services, providing excellent customer service, offering loyalty programs, and continually seeking out ways to improve the customer experience. By focusing on customer retention, businesses can build long-term relationships with their customers, which can lead to increased customer loyalty.",
     links: [
       {
         iconType: "article",
@@ -325,7 +325,7 @@ export default {
   "Product Pivot": {
     title: "Product Pivot",
     description:
-      "Product pivot means shifting the direction of a business to accommodate changes in the industry, user preference, or any other factor that impacts your value proposition. Usually, the decision to pivot a product is the result of competitive changes, new findings about the market, or shortcomings in the original strategy.",
+      "Product pivot refers to the process of significantly changing the focus or direction of a product, often in response to market demand or changing business circumstances. This can involve altering the target customer, business model, features, or positioning of the product. Product pivots can be strategic moves that allow companies to pivot their product towards a new, potentially more profitable market or audience. It can also involve making adjustments to a product in response to customer feedback or changing market conditions. Ultimately, the goal of a product pivot is to improve the product's chances of success in the market.",
     links: [
       {
         iconType: "video",
@@ -342,7 +342,7 @@ export default {
   "Business Metrics": {
     title: "Business Metrics",
     description:
-      "Business metric is the measure businesses use to track, monitor, and assess the success or failure of various business processes. ",
+      "Business metrics are quantifiable measures that organizations use to track and assess the success of their operations. These metrics can be financial, such as revenue and profitability, or they can be non-financial, such as customer satisfaction and employee engagement. Businesses use metrics to set goals, assess performance, and make data-driven decisions to improve their operations and achieve their objectives. ",
     links: [
       {
         iconType: "video",
@@ -370,7 +370,7 @@ export default {
   "Design Metrics": {
     title: "Design Metrics",
     description:
-      "Design metric measures the success of the design solutions and the value that the product brings to the customers. Metrics help designers to make data-informed decisions.",
+      "Design metrics are measurements or indicators used to assess the performance or effectiveness of a design. They can be used to evaluate a wide range of design elements, including user experience, usability, aesthetics, and functionality. Design metrics are often used by designers and developers to identify areas for improvement and to track progress over time. They can be collected through a variety of methods, such as user testing, analytics, or surveys, and are typically used in conjunction with other design tools and techniques to help inform the design process and ensure that a product or service meets the needs and expectations of its users.",
     links: [
       {
         iconType: "article",
