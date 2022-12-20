@@ -156,7 +156,7 @@ export default {
   "Product Pitch": {
     title: "Product Pitch",
     description:
-      "Product pitch is a presentation or pitch that aims to sell a product or service to a potential customer or investor. It typically includes a brief overview of the product or service, its key features and benefits, and how it meets the needs of the target audience. A product pitch may also include demonstrations, samples, or other materials to help illustrate the product or service in action. The goal of a product pitch is to persuade the listener to try the product or service, invest in it, or otherwise engage with it in some way.",
+      "Product pitch is a presentation that aims to sell a product or service to a potential customer or investor. It typically includes a brief overview of the product or service, its key features and benefits, and how it meets the needs of the target audience. A product pitch may also include demonstrations, samples, or other materials to help illustrate the product or service in action. The goal of a product pitch is to persuade the listener to try the product or service, invest in it, or otherwise engage with it in some way.",
     links: [
       {
         iconType: "video",
