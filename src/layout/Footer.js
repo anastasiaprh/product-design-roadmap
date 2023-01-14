@@ -38,6 +38,17 @@ const Footer = () => {
           </a>
         </span>
       </div>
+      <div className={classes["footer__copyright"]}>
+        <span>
+          Copyright ©{" "}
+          <span>
+            <a href="https://product-design-roadmap.com/" target="blank">
+              product-design-roadmap.com
+            </a>
+          </span>{" "}
+          2023.
+        </span>
+      </div>
     </footer>
   );
 };
