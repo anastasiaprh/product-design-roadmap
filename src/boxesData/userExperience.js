@@ -17,7 +17,7 @@ export default {
       width: 207,
       height: 198,
       fillColor: "cyan0",
-      text: "Empathize",
+      text: "Discover",
     },
     {
       type: "multiBox",
