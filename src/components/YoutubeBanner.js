@@ -6,7 +6,7 @@ export const YoutubeBanner = () => {
   return (
     <div className={classes["youtube-banner"]}>
       <a
-        href="https://www.youtube.com/@anauxuidesign/about"
+        href="https://www.youtube.com/@anauxuidesign"
         target="blank"
         className={classes["banner-content"]}
       >
