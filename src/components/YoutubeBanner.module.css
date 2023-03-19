@@ -1,0 +1,39 @@
+.youtube-banner {
+  background-color: #ffd085;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  height: 100%;
+  flex: 1;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  color: #3a2503;
+  font-weight: 600;
+}
+
+.youtube-banner:hover {
+  background-color: #ffc262;
+}
+
+@media only screen and (max-width: 767px) {
+  .hidden {
+    display: none;
+  }
+
+  .youtube-banner {
+    height: 26px;
+  }
+
+  .banner-content {
+    font-size: 0.65em;
+  }
+}

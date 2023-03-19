@@ -6,6 +6,7 @@ import CartContext from "./modal/modalContext";
 import contentData from "./contentData";
 import Loader from "./layout/Loader";
 import Footer from "./layout/Footer";
+import { YoutubeBanner } from "./components/YoutubeBanner";
 
 function App() {
   const { currentTopicTitle } = useContext(CartContext);
@@ -23,6 +24,7 @@ function App() {
     <div>
       <Modal topicData={topicData} />
       <main>
+        <YoutubeBanner></YoutubeBanner>
         <Header></Header>
         {isLoading && <Loader />}
         <MainContainer></MainContainer>
