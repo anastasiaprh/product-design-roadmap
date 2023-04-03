@@ -272,7 +272,7 @@ export default {
       {
         iconType: "article",
         title: "The Guide to Product Metrics",
-        href: "https://mixpanel.com/de/content/guide-to-product-metrics/full-report/",
+        href: "https://mixpanel.com/content/guide-to-product-metrics/full-report/",
       },
       {
         iconType: "article",
