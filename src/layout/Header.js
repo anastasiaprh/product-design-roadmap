@@ -42,10 +42,7 @@ const Header = () => {
           <div className={classes["social-icons"]}>
             <span>Share:</span>
             <a
-              href="https://twitter.com/intent/tweet
-  ?url=https%3A%2F%2Fproduct-design-roadmap.com%2F
-  &text=Product+Design+Roadmap
-  &hashtags=productdesign,uiux,roadmap"
+              href="https://twitter.com/intent/tweet?text=Product%20Design%20Roadmap&url=https%3A%2F%2Fproduct-design-roadmap.com%2F"
               target="_blank"
               rel="noopener noreferrer"
               className={classes["twitter-ic"]}
