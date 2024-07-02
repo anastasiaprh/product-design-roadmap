@@ -1,5 +1,5 @@
-.youtube-banner {
-  background-color: #ffd085;
+.banner {
+  background-color: #FFE3D5;
   height: 40px;
   width: 100%;
   display: flex;
@@ -20,20 +20,36 @@
   font-weight: 600;
 }
 
-.youtube-banner:hover {
-  background-color: #ffc262;
+.banner:hover {
+  background-color: #FFD7C2;
 }
 
 @media only screen and (max-width: 767px) {
+  .banner-text {
+    display: none;
+  }
+
+  .banner-content svg {
+    width: 20px;
+    height: 20px;
+  }
+
   .hidden {
     display: none;
   }
 
-  .youtube-banner {
-    height: 26px;
+  .banner {
+    height: 30px;
   }
 
   .banner-content {
-    font-size: 0.65em;
+    font-size: 0.75em;
   }
+}
+
+@media only screen and (min-width: 767px) {
+  .banner-text-mobile {
+    display: none;
+  }
+  
 }

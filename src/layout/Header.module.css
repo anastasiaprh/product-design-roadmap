@@ -16,7 +16,7 @@
   font-size: 1.5em;
 }
 
-.header-content {
+.header__logo {
   margin: 0 auto;
   max-width: 980px;
   padding: 0 22px;
@@ -40,8 +40,42 @@
   transform: scaleX(-1);
 }
 
-.social-icons {
+.header__right-content {
+  display: flex;
+  gap: 24px;
   position: absolute;
+  right: 0;
+  margin-right: 1.5em;
+}
+
+.donate-link {
+  text-decoration: none;
+}
+
+.donate-button {
+  background-color: #0067EB;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-family: "Fredoka", Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+  background-color: #005CD1;
+}
+
+
+.social-icons {
   right: 2em;
   display: flex;
   align-items: center;
@@ -77,13 +111,17 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+  .header__right-content {
+    margin-right: 1em;
+  }
+
   .social-icons {
     display: none;
   }
 
   .GitHubRibbon svg {
-    width: 50px;
-    height: 50px;
+    display: none;
   }
 
   .header {
@@ -92,5 +130,25 @@
 
   .logo {
     width: 179px;
+  }
+
+  .donate-button {
+    border-radius: 8px;
+    font-size: .65em;
+    gap: 4px;
+    padding: 2px 6px;
+    line-height: 20px;
+  }
+
+  .donate-button svg {
+    width: 12px;
+    height: 12px;
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-icons {
+    display: none;
   }
 }
