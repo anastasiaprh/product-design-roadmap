@@ -14,7 +14,7 @@ export const Banner = () => {
         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 4.57916H18.5V6.4016H5.5V4.57916ZM5.5 11.2267H18.5V19.421L11.9987 15.7745L5.5 19.421V11.2267ZM5.5 7.9029H18.5V9.72533H5.5V7.9029Z" fill="#FF6719"/>
         </svg>
         <span className={classes["banner-text-mobile"]}>Subscribe to my newsletter!</span>
-        <span className={classes["banner-text"]}>Subscribe to my newsletter to receive posts about the design best practices.</span>
+        <span className={classes["banner-text"]}>Subscribe to my newsletter to receive posts about design best practices, guides, and more.</span>
       </a>
     </div>
   );
