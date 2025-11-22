@@ -1,5 +1,5 @@
 .banner {
-  background-color: #FFE3D5;
+  background-color: #FFE4E4;
   height: 40px;
   width: 100%;
   display: flex;
@@ -11,17 +11,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.4rem;
   height: 100%;
   flex: 1;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
-  color: #3a2503;
+  color: #260000;
   font-weight: 600;
 }
 
 .banner:hover {
-  background-color: #FFD7C2;
+  background-color: #FFD8D8;
 }
 
 @media only screen and (max-width: 767px) {
