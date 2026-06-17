@@ -1,5 +1,5 @@
 .banner {
-  background-color: #FFE4E4;
+  background-color: #F4F6FF;
   height: 40px;
   width: 100%;
   display: flex;
@@ -20,17 +20,20 @@
   font-weight: 600;
 }
 
+.banner-text--underlined {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+
+}
+
+
 .banner:hover {
-  background-color: #FFD8D8;
+  background-color: #E6E8F4;
 }
 
 @media only screen and (max-width: 767px) {
-  .banner-text {
-    display: none;
-  }
 
   .banner-content svg {
-    width: 20px;
     height: 20px;
   }
 
@@ -45,11 +48,4 @@
   .banner-content {
     font-size: 0.75em;
   }
-}
-
-@media only screen and (min-width: 767px) {
-  .banner-text-mobile {
-    display: none;
-  }
-  
 }
