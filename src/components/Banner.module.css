@@ -1,5 +1,5 @@
 .banner {
-  background-color: #F4F6FF;
+  background-color: #F8F9FF;
   height: 40px;
   width: 100%;
   display: flex;
@@ -28,7 +28,7 @@
 
 
 .banner:hover {
-  background-color: #E6E8F4;
+  background-color: #EBEEFC;
 }
 
 @media only screen and (max-width: 767px) {
